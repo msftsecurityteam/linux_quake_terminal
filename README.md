@@ -38,6 +38,7 @@ users should know what I mean by Mod-key). That is found in my `~/.config/awesom
     awful.key({ modkey }, "`", function() run_once({"/home/m/.config/quake_term.sh"}) end,
              {description = "Toggle dropdown terminal", group = "launcher"}),
 [...]
+```
 2. Further down the `rc.lua` file, you will find generic rules that are applied
 to new clients in awesomewm. Add the following rule to make sure your kitty-quake
 is always set to floating:
@@ -48,8 +49,7 @@ awful.rules.rules = {
 { rule = { instance = "kitty_launcher" }, properties = { floating = true } },
 [...]
 }
-
-
+```
 This rule is specific to awesomewm (and im sure similar for other tiling WMs like
 i3 because if this rule is not specified, as soon as you launch your
 kitty-quake, it will become tiled and stuck on your desktop.
