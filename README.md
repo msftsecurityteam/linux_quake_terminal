@@ -62,3 +62,9 @@ program will be the WM_CLASS property (in kitty's case, WM_CLASS = kitty by defa
 is unset by default). Most terminal emulators allow you to set both, and to not
 get in the way of the window manager or other utilities, I decided to use the
 WM_NAME / classname portion.
+
+## Troubleshooting
+I whipped this README.md up really fast. Honestly, this should be pretty straight-
+forward on getting it to work. But if you find any bugs, have any problems, or
+have questions, feel free to reach out to me at `@DUK3NUK3M` on Telegram or
+`blackh4t@icloud.com`.
