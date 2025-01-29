@@ -1,5 +1,8 @@
 # linux_quake_terminal
-Quake-style scroll down terminal from top of desktop for Linux
+Quake-style scroll down terminal from top of desktop for Linux. This shellscript
+configures a terminal to "slide" down from the top of the desktop screen, slow
+enough to where you can see it scroll down like a "scroll" of paper being
+unfolded. Fans of Quake 2 will know what I'm talking about.
 
 ## Why?
 Why not?
