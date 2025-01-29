@@ -55,7 +55,7 @@ i3 because if this rule is not specified, as soon as you launch your
 kitty-quake, it will become tiled and stuck on your desktop.
 
 ## Caveats
-As briefly mentioned above, rather than setting *kitty's* class to XYZ, I set the
+As briefly mentioned above, rather than setting kitty's *class* to XYZ, I set the
 **classname** to XYZ. The difference between the two are that in x11, you can set
 the WM_CLASS property, and the WM_NAME property. Typically, the name of a
 program will be the WM_CLASS property (in kitty's case, WM_CLASS = kitty by default, WM_NAME
