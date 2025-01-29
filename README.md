@@ -48,7 +48,8 @@ awful.rules.rules = {
 { rule = { instance = "kitty_launcher" }, properties = { floating = true } },
 [...]
 }
-```
+
+
 This rule is specific to awesomewm (and im sure similar for other tiling WMs like
 i3 because if this rule is not specified, as soon as you launch your
 kitty-quake, it will become tiled and stuck on your desktop.
