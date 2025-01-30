@@ -58,13 +58,17 @@ i3 because if this rule is not specified, as soon as you launch your
 kitty-quake, it will become tiled and stuck on your desktop.
 
 ## Caveats
-As briefly mentioned above, rather than setting kitty's *class* to XYZ, I set the
+- As briefly mentioned above, rather than setting kitty's *class* to XYZ, I set the
 **classname** to XYZ. The difference between the two are that in x11, you can set
 the WM_CLASS property, and the WM_NAME property. Typically, the name of a
 program will be the WM_CLASS property (in kitty's case, WM_CLASS = kitty by default, WM_NAME
 is unset by default). Most terminal emulators allow you to set both, and to not
 get in the way of the window manager or other utilities, I decided to use the
 WM_NAME / classname portion.
+
+- Try to keep other windows further from the top of the screen than the bottom --
+some terminals will notice there is more room on the bottom and start from there
+instead of the top of the screen.
 
 ## Troubleshooting
 I whipped this README.md up really fast. Honestly, this should be pretty straight-
