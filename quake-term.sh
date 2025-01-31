@@ -12,7 +12,7 @@
 TERMINAL_CLASS="kitty_launcher" # special classname for your quake terminal
 ANIMATION_DURATION=0.0625       # time (seconds) you would like it to take to open the terminal
 ANIMATION_STEPS=30              # can leave this largely untouched
-MIN_HEIGHT_PERCENT=1            # keep this at 1 (unless you know what you're doing)
+MIN_HEIGHT_PERCENT=0            # keep this at 1 (unless you know what you're doing)
 MAX_HEIGHT_PERCENT=30           # adjust this higher or lower to change the size of your quake-terminal
 
 WINDOW_ID=$(xdotool search --classname $TERMINAL_CLASS)
